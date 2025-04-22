@@ -51,7 +51,7 @@ def test_tokenization_pubmed(
     [
         (
             '(eHealth[Title/Abstract] OR "eHealth"[MeSH Terms]) AND Review[Publication Type]',
-            'AND[OR[OR[all][eHealth[ti], eHealth[ab]], "eHealth"[mh]], Review[pt]]'
+            'AND[OR[OR[eHealth[ti], eHealth[ab]], "eHealth"[mh]], Review[pt]]'
         )
     ]
 )
